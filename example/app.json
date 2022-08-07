@@ -1,0 +1,23 @@
+{
+  "name": "@santigp258/simplify-example",
+  "displayName": "Simplify Example",
+  "expo": {
+    "name": "@santigp258/simplify-example",
+    "slug": "santigp258-simplify-example",
+    "description": "Example app for @santigp258/simplify",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "jsEngine": "hermes",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
