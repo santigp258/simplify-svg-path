@@ -31,15 +31,20 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "expo",
+    "svg",
+    "path",
+    "simplify",
+    "paper.js"
   ],
-  "repository": "https://github.com/santigp258/simplify-ssvg-path",
+  "repository": "https://github.com/santigp258/simplify-svg-path",
   "author": "santigp258 <santigp258@gmail.com> (https://github.com/santigp258)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/santigp258/simplify-ssvg-path/issues"
+    "url": "https://github.com/santigp258/simplify-svg-path/issues"
   },
-  "homepage": "https://github.com/santigp258/simplify-ssvg-path#readme",
+  "homepage": "https://github.com/santigp258/simplify-svg-path#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
