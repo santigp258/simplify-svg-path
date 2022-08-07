@@ -1,29 +1,28 @@
 # @santigp258/simplify
-Extracts Path#simplify() from Paper.js
+Extracts [Path#simplify()](http://paperjs.org/reference/path/#simplify) from Paper.js
 ## Installation
 
-```sh
+```bash
 npm install @santigp258/simplify
 ```
 
-## Usage
-
-```js
-import { multiply } from "@santigp258/simplify";
-
-// ...
-
-const result = await multiply(3, 7);
+or
+```bash
+yarn add @santigp258/simplify
 ```
+## API
+```ts
+simplifySvgPath(
+  points: [x: number, y: number][], // `{ x: number, y: number }[]` is also acceptable
+  {
+    tolerance: number = 2.5,
+    precision: number = 5,
+  } = {}
+): string
+// SVG path command string such as
+// "M10,10c0,3.33333 -2.35702,7.64298 0,10c2.35702,2.35702 6.66667,0 10,0"
+```
+## Note
+This repo is a fork of [@luncheon/simplify-svg-path](https://github.com/luncheon/simplify-svg-path#readme)
 
-## Contributing
-
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
-
-## License
-
-MIT
-
----
-
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
+Also The logic is a copy of [Paper.js](https://github.com/paper.js) `v0.12.11.`
